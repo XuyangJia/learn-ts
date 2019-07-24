@@ -1,0 +1,33 @@
+{
+  "name": "learn-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XuyangJia/learn-ts.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "standard": {
+    "ignore": [
+      "**/out/",
+      "/lib/select2/",
+      "/lib/ckeditor/",
+      "tmp.js"
+    ]
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "ts-node": "^8.3.0"
+  },
+  "devDependencies": {
+    "gulp-typescript": "^5.0.1",
+    "nodemon": "^1.19.1",
+    "standard": "^13.1.0",
+    "typescript": "^3.5.3"
+  }
+}
